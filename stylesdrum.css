@@ -1,0 +1,102 @@
+/* body*/
+body {
+  text-align: center;
+  background-color: #B2A4FF;
+}
+/*h1*/
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+/*bootstrap */
+.container-fluid{
+  margin:5% auto;
+}
+.row {
+  margin: 10% auto;
+}
+/*animation*/
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: #B2A4FF;
+}
+/*button */
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #FA2FB5;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.w {
+  background-image: url(" C:/Users/USER/Desktop/Drum-kit/tom1.png ");
+
+}
+
+.a {
+  background-image: url(" C:/Users/USER/Desktop/Drum-kit/kick.png");
+}
+
+.s {
+  background-image: url("C:/Users/USER/Desktop/Drum-kit/tom3.png");
+}
+
+.d {
+  background-image: url("  C:/Users/USER/Desktop/Drum-kit/crash.png");
+}
+
+.j {
+  background-image: url("C:/Users/USER/Desktop/Drum-kit/tom2.png ");
+}
+
+.k {
+  background-image: url(" C:/Users/USER/Desktop/Drum-kit/snare.png ");
+}
+
+.p {
+  background-image: url(" C:/Users/USER/Desktop/Drum-kit/tom4.png");
+
+}
+/*footer */
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+/* media query for responsiveness */
+@media(max-width:500px){
+.drum{
+  font-size: 3rem;
+  width: 80px;
+  height: 100px;
+  background-color: yellowgreen;
+
+}
+h1{
+  font-size: 2.5rem;
+}
+footer{
+  color:black;
+  opacity: 0.8;
+  font-size: small;
+}
+
+
+}
